@@ -21,7 +21,7 @@ async def start(_, message):
         [
             [
                 InlineKeyboardButton(
-                    text="More Botz ? ", url="https://telegram.dog/CrAzIe_BoTz"
+                    text="More about me ", url="https://telegram.dog/CuTePsYcHo_110"
                 ),
                 InlineKeyboardButton(
                     text="Dev", url="https://t.me/CuTePsYcHo_110"
