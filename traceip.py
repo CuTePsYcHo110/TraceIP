@@ -21,10 +21,10 @@ async def start(_, message):
         [
             [
                 InlineKeyboardButton(
-                    text="More about me ", url="https://telegram.dog/CuTePsYcHo_110"
+                    text="About Me", url="https://t.me/CuTePsYcHo_110"
                 ),
                 InlineKeyboardButton(
-                    text="Dev", url="https://t.me/CuTePsYcHo_110"
+                    text="DEV", url="https://t.me/CuTe_PsYcHo_110"
                 )
             ]
         ]
