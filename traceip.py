@@ -11,7 +11,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 command = partial(filters.command, prefixes=["!", "/"])
 
-start_text = f"Hola ! , Thank You For Using me, I can Help You Search Info of an IP\n**Syntax:** `/ip [ip]`\n\nI won't force anyone to Join Our Channel by adding a Force Sub, But it would be very nice if you join our channel @CrAzIe_BoTz for more such botz ."
+start_text = f"Hola Im an IP Tracer Bot made by @CuTePsYcHo_110 ! , Thank You For Using me, I can Help You Search Info of an IP\n**Syntax:** `/ip [ip]`\n\nI won't force anyone to Join Our Channel by adding a Force Sub, But it would be very nice if you join our channel @CrAzIe_BoTz for more such botz ."
 
 app = Client("traceip", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
@@ -21,7 +21,7 @@ async def start(_, message):
         [
             [
                 InlineKeyboardButton(
-                    text="Source Code", url="https://github.com/CuTePsYcHo_110/TraceIP"
+                    text="More Botz ? ", url="https://telegram.dog/CrAzIe_BoTz"
                 ),
                 InlineKeyboardButton(
                     text="Dev", url="https://t.me/CuTePsYcHo_110"
