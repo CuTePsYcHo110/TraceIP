@@ -11,7 +11,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 command = partial(filters.command, prefixes=["!", "/"])
 
-start_text = f"Hello User, Thank You For Using me, I can Help You Search Info of an IP\n**Syntax:** `/ip [ip]`\n\nI won't force anyone to Join Our Channel by adding a Force Sub, But it would be very nice if you join our channel @CrAzIe_BoTz"
+start_text = f"Hola ! , Thank You For Using me, I can Help You Search Info of an IP\n**Syntax:** `/ip [ip]`\n\nI won't force anyone to Join Our Channel by adding a Force Sub, But it would be very nice if you join our channel @CrAzIe_BoTz for more such botz ."
 
 app = Client("traceip", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
@@ -33,7 +33,7 @@ async def start(_, message):
     
 @app.on_message(command("help"))
 async def help(_, message):
-    await message.reply_text("Use the Following Syntax\n/ip [ip], Commands starts with either / or !. Report Errors in @CrAzIe_BoTz_ChAt")
+    await message.reply_text("Use the Following Syntax\n/ip [ip], Commands starts with either / or ! \n\n Report Errors in @CrAzIe_BoTz_ChAt")
     
 
 @app.on_message(command("ip"))
